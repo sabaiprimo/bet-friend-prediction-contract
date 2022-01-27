@@ -1,0 +1,43 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LMSRMarketMakerData",
+  "sourceName": "@gnosis.pm/conditional-tokens-market-makers/contracts/LMSRMarketMakerFactory.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "initialFunding",
+          "type": "uint256"
+        }
+      ],
+      "name": "AMMCreated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820e3178b269075071879e08bae3e2e233291b68c4ac17eb8781a8d92f2bdaaf8d864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820e3178b269075071879e08bae3e2e233291b68c4ac17eb8781a8d92f2bdaaf8d864736f6c63430005100032",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
